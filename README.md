@@ -24,9 +24,9 @@ A anotação extra está dividida em dois tipos: atributos das sentenças e atri
   <li><strong>Semelhança de dependência sintática:</strong> Mesma estrutura sintática do primeiro nível de dependência a partir da raiz. São observados quantos nós filhos a raiz possuí nas sentenças e feita uma proporção entre aqueles que são iguais em ambas (possuem o mesmo rótulo sintático) e todos do par. Na prática isso significa que se a raiz tiver os mesmos nós filhos sintáticos, o valor será 1. Caso as raízes das sentenças tenham filhos distintos, o valor é menor, chegando a 0 para nenhuma intersecção de filhos sintáticos.</li>
 </ol>
 
-### Informações adicionais
+### Informações adicionais sobre o ASSIN
   
-Mais informações sobre o ASSIN podem ser encontradas em: http://www.nilc.icmc.usp.br/assin/
+Mais informações podem ser encontradas em: http://www.nilc.icmc.usp.br/assin/
 
 Os scripts utilizados na *share task* estão disponíveis em: https://github.com/erickrf/assin
 
