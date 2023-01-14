@@ -1,7 +1,9 @@
 ## ASSINplus
-**Breve descrição:** Repositório com dados da partição de teste do *dataset* ASSIN anotado para outros atributos.
+Repositório com dados da partição de teste do *dataset* ASSIN com anotação extra para atributos do texto.
 
 ## Atributos 
+
+A anotação extra está dividida em dois tipos: atributos das sentenças e atributos dos pares de sentenças. A primeira considera o texto em si, a segunda uma relação entre os atributos das sentenças para cada par.   
 
 ### Atributos das sentenças
 
@@ -13,10 +15,18 @@
   <li><strong>Dependência sintática:</strong> Estrutura de dependência sintática de acordo com o modelo de Universal Dependency anotada de forma automatizada pelo parser sintático do SciPy.</li>
 </ol>
 
+### Atributos dos pares
 
-## Acesso rápido
+<ol>
+  <li><strong>Proporção do comprimento:</strong> Relação do comprimento entre as duas sentenças. Tomamos a diferença de comprimento dividido pelo comprimento médio das sentenças.</li>
+  <li><strong>Proporção de entidade nomeada em ambas sentenças:</strong> Proporção de entidades nomeadas presentes nas duas sentenças em relação a soma de entidades do par.</li>
+  <li><strong>Relação entre tópicos:</strong> Valor binário no qual foi atribuído 0 se o tópico de cada sentença do par é distinto e 1 caso o tópico seja o mesmo.</li>
+  <li><strong>Semelhança de dependência sintática:</strong> Mesma estrutura sintática do primeiro nível de dependência a partir da raiz. São observados quantos nós filhos a raiz possuí nas sentenças e feita uma proporção entre aqueles que são iguais em ambas (possuem o mesmo rótulo sintático) e todos do par. Na prática isso significa que se a raiz tiver os mesmos nós filhos sintáticos, o valor será 1. Caso as raízes das sentenças tenham filhos distintos, o valor é menor, chegando a 0 para nenhuma intersecção de filhos sintáticos.</li>
+</ol>
 
-Mais informações sobre o *dataset* original podem ser encontradas em: http://www.nilc.icmc.usp.br/assin/
+### Informações adicionais
+  
+Mais informações sobre o ASSIN podem ser encontradas em: http://www.nilc.icmc.usp.br/assin/
 
 Os scripts utilizados na *share task* estão disponíveis em: https://github.com/erickrf/assin
 
