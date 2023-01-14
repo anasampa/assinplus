@@ -10,7 +10,7 @@
   <li><strong>Entidade nomeada:</strong> Entidades nomeadas presentes nas sentenças anotadas manualmente.
       Entre elas constam nomes de esportistas, políticos e instituições.</li>
   <li><strong>Tópico:</strong> Os tópicos identificados foram: esporte, entretenimento, produtos de tecnologia, economia e mercado, política, saúde, notícias mundiais (notícias de países do mundo exceto o Brasil e Portugal), ciência e outras notícias. A cada sentença foi atribuído apenas um tópico. A anotação foi feita manualmente para as sentença individualmente considerando-se apenas a informação contida em cada uma.</li>
-  <li><strong>Dedependência sintática:</strong> Estrutura de dependência sintática de acordo com o modelo de Universal Dependency anotada de forma automatizada pelo parser sintático do SciPy.</li>
+  <li><strong>Dependência sintática:</strong> Estrutura de dependência sintática de acordo com o modelo de Universal Dependency anotada de forma automatizada pelo parser sintático do SciPy.</li>
 </ol>
 
 
