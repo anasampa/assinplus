@@ -1,5 +1,5 @@
 ## ASSINplus
-Repositório com dados da partição de teste do *dataset* ASSIN com anotação extra para atributos do texto.
+Repositório com anotação adicional para atributos do texto de dados da partição de teste do *dataset* ASSIN.
 
 ## Atributos 
 
